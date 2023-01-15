@@ -1,2 +1,2 @@
 # Financial-Technology-Services
-A website that enhance  currency exchange and money remittance services
+A website that enhance  currency exchange and money remittance services across all region
