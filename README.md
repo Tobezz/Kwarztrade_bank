@@ -27,9 +27,9 @@ Setup an environment which supports web development like <b>LAMP</b> on <b>Linux
 
 Copy the folder [Kwarz_trade_bank](https://github.com/Tobezz/Kwarztrade_bank) or the files in it to the location of the localhost. For example "/var/www/html", the loaction of localhost in Ubuntu.
 
-Import the [Kwarz_bank.sql](https://github.com/Tobezz/Kwarztrade_bank/Kwarz_bank.sql) database into your MySQL setup.
+Import the [Kwarz_bank.sql](https://github.com/Tobezz/Kwarztrade_bank/blob/main/Kwarz_bank.sql) database into your MySQL setup.
 
-Edit the file [connect.php](https://github.com/Tobezz/Kwarztrade_bank/connect.php) and give proper username and password of your MySQL setup.
+Edit the file [connect.php](https://github.com/Tobezz/Kwarztrade_bank/blob/main/connect.php) and give proper username and password of your MySQL setup.
 
 Open a browser and test wether the setup works or not by visiting the home page. Type "localhost/home.php" as the URL in the browser to visit the home page.
 
