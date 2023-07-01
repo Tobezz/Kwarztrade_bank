@@ -55,10 +55,10 @@
 
 <div class="first-dive">
     <h1>
-      ABOUT KWARZ TRADE BANK
+      ABOUT KWARZ TRADE BANK THEMISA EXCHANGE
     </h1>
     <h5>KWARZ TRADE BANK</h5>
-    <h2>We are a Subsidiary to Hong Kong Financial <br>Technology Services organisation</h2>
+    <h2>We are a Subsidiary of Themisa Exchange <br>Services organisation</h2>
     <p class="welcome-note">
         Providing our clients with Online banking, international currency exchange and money remittance services since 2021.
         Kwarz Trade Bank registered on 14 June 2021 under registration no. XXXXXXX, having its registered address at: Lagos State, Nigeria.<br> <br>The Company is a licensed Online banking service operator since 2021, providing online banking, remittance and foreign exchange services under Money Service Operator. Kwarz aims to leverage technology to disrupt the existing financial system with a mission to help solving one of the worlds more pressing problem  making financial services more accessible and available to everyone. <br><br>We strive to provide individuals and companies around the globe with an opportunity to send cross-border remittances in cheap, fast and convenient manner.
