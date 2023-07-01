@@ -1,10 +1,20 @@
+<?php
+    include "header.php";
+    include "navbar.php";
+
+    if (isset($_GET['loginFailed'])) {
+        $message = "Invalid Credentials ! Please try again.";
+        echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KWARZ TRADING LIMITE</title>
+  <title>KWARZ TRADING BANK</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +22,9 @@
 <script src="https://kit.fontawesome.com/6f6ddd638b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+
+ <!---
+
 <nav>
   <div class="nav-left">
     <a href="Kwarz.html"><img src="./image/logo3.png" class="logo"></a>
@@ -37,13 +49,15 @@
 </nav>
 
 
+--->
+
 <div class="first-div">
     <h2>
-      WELCOME TO KWARZ TRADE LIMITED
+      WELCOME TO KWARZ TRADE BANK
     </h2>
 
     <p class="welcome-note">
-      We work on financial literacy, money management. We strive to get them the best interest rate.</br>
+      We work on financial literacy, online banking and money management. We strive to get them the best interest rate.</br>
 Nearly 2.5 billion people - half the world's adult population lack one of the  most </br>basic amenities of modern life: a virtual transactions.
     </p>
 
@@ -159,13 +173,15 @@ Nearly 2.5 billion people - half the world's adult population lack one of the  m
   </form>
 </div>
 </div>
-<h3 class="futter-h3">KWARZ TRADE LIMITED </h3>
+
+
+<h3 class="futter-h3">KWARZ TRADE BANK </h3>
 <h5 class="sub">Subsidiary of THEMISA EXCHANGE</h5>
   
 
 </br>
 </br>
-<P class="copy">&copy;2020 KWARZ TRADE LIMITED. All Rights Reserved. Website by Tobez. </P>
+<P class="copy">&copy;2020 KWARZ TRADE BANK. All Rights Reserved. Website designed by Tobez. </P>
 </br>
 
 

@@ -1,10 +1,22 @@
+<?php
+    include "header.php";
+    include "navbar.php";
+
+    if (isset($_GET['loginFailed'])) {
+        $message = "Invalid Credentials ! Please try again.";
+        echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ABOUT KWARZ TRADE LIMITED</title>
+  <title>ABOUT KWARZ TRADE BANK</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +24,9 @@
 <script src="https://kit.fontawesome.com/6f6ddd638b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+
+
+<!---
 <nav>
   <div class="nav-left">
     <a href="Kwarz.html"><img src="./image/logo3.png" class="logo"></a>
@@ -36,6 +50,9 @@
   </div>
 </nav>
 
+
+--->
+
 <h1 class="us">
     CONTACT US
 </h1>
@@ -43,9 +60,9 @@
     <div class="double">
         
         <h5 class="yy">OUR HEAD OFFICE</h5>
-        <h2 class="yyy">KWARZ TRADE LIMITED</h2>
+        <h2 class="yyy">KWARZ TRADE BANK</h2>
         <p class="dev"><i class="fa-solid fa-location-dot"></i>
-            No 20, Jogunosimi street Ikeja, Lagos State, Nigeria.<br> <br>
+            No 98, Jogunosimi street Ikeja, Lagos State, Nigeria.<br> <br>
             </i>Landline Phone number (234) 70352 35719
         </p>
     </div>
@@ -75,13 +92,13 @@
         
         <h5 class="yy">CUSTOMER SUPPORT</h5>
         <p class="dev">
-            If you experiencing any difficulties using our Services,<br><br> please get in touch by filling in the form below, or by sending<br> us an email at support@kwarz.com
+            If you experiencing any difficulties using our Services,<br><br> please get in touch by filling in the form below, or by sending<br> us an email at support@kwarztradebank.com
         </p>
     </div>
     <div class="db">
         <h5 class="yy">HELP US IMPROVE OUR SERVICES</h5>
         <p class="dev">
-            We are continually striving to provide high quality <br><br>service to every one of our customers. You can provide you feedback by<br> contacting us at info@kwarz.com
+            We are continually striving to provide high quality <br><br>service to every one of our customers. You can provide you feedback by<br> contacting us at info@kwarztradebank.com
         </p>
         
     </div>
@@ -133,19 +150,19 @@
 
         We take all the complaints we receive very seriously and do our best to work with our customers to sort them out as soon as possible after they are brought to our attention.<br><br>
 
-        We ask that you give us the details of your complaint within 12 months of the incident, or within 12 months of you becoming aware of the problem, by sending us an email at complaint@kwarz.com. We will respond to your concerns considerately, quickly and as effectively as possible.
+        We ask that you give us the details of your complaint within 12 months of the incident, or within 12 months of you becoming aware of the problem, by sending us an email at complaint@kwarztradebank.com. We will respond to your concerns considerately, quickly and as effectively as possible.
     </p>
 
 </div>
 
 
-<h3 class="futter-h3">KWARZ TRADE LIMITED </h3>
+<h3 class="futter-h3">KWARZ TRADE BANK </h3>
 <h5 class="sub">Subsidiary of THEMISA EXCHANGE</h5>
   
 
 </br>
 </br>
-<P class="copy">&copy;2020 KWARZ TRADE LIMITED. All Rights Reserved. Website by Tobez. </P>
+<P class="copy">&copy;2020 KWARZ TRADE BANK. All Rights Reserved. Website designed by Tobez. </P>
 </br>
 
 

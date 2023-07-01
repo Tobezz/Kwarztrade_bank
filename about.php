@@ -1,10 +1,22 @@
+<?php
+    include "header.php";
+    include "navbar.php";
+
+    if (isset($_GET['loginFailed'])) {
+        $message = "Invalid Credentials ! Please try again.";
+        echo "<script type='text/javascript'>alert('$message');</script>";
+    }
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ABOUT KWARZ TRADE LIMITED</title>
+  <title>ABOUT KWARZ TRADE BANK</title>
   <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +24,9 @@
 <script src="https://kit.fontawesome.com/6f6ddd638b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  
+
+
+<!---
 <nav>
   <div class="nav-left">
     <a href="Kwarz.html"><img src="./image/logo3.png" class="logo"></a>
@@ -37,15 +51,17 @@
 </nav>
 
 
+--->
+
 <div class="first-dive">
     <h1>
-      ABOUT KWARZ TRADE LIMITED
+      ABOUT KWARZ TRADE BANK
     </h1>
-    <h5>KWARZ TRADE</h5>
-    <h2>We are a Subsidiary to Hong Kong Financial <br>Technology Services company</h2>
+    <h5>KWARZ TRADE BANK</h5>
+    <h2>We are a Subsidiary to Hong Kong Financial <br>Technology Services organisation</h2>
     <p class="welcome-note">
-        Providing our clients with international currency exchange and money remittance services since 2021.
-        Kwarz Trade Limited registered on 14 June 2021 under registration no. XXXXXXX, having its registered address at: Lagos State, Nigeria.<br> <br>The Company is a licensed money service operator and since 2021, providing remittance and foreign exchange services under Money Service Operator. Kwarz aims to leverage technology to disrupt the existing financial system with a mission to help solving one of the worlds more pressing problem  making financial services more accessible and available to everyone. <br><br>We strive to provide individuals and companies around the globe with an opportunity to send cross-border remittances in cheap, fast and convenient manner.
+        Providing our clients with Online banking, international currency exchange and money remittance services since 2021.
+        Kwarz Trade Bank registered on 14 June 2021 under registration no. XXXXXXX, having its registered address at: Lagos State, Nigeria.<br> <br>The Company is a licensed Online banking service operator since 2021, providing online banking, remittance and foreign exchange services under Money Service Operator. Kwarz aims to leverage technology to disrupt the existing financial system with a mission to help solving one of the worlds more pressing problem  making financial services more accessible and available to everyone. <br><br>We strive to provide individuals and companies around the globe with an opportunity to send cross-border remittances in cheap, fast and convenient manner.
     </p>
 
 
@@ -166,7 +182,7 @@
 
 <div class="question">
   <h2>LOOKING FOR A CAREER?</h2>
-  <p>KWARZ TRADE LIMITED is a fast growing global company with many exciting job opportunities for professionals around the world.<br><br>
+  <p>KWARZ TRADE LIMITED is a fast growing global Bank with many exciting job opportunities for professionals around the world.<br><br>
     If you are interested in our open vacancies, please use form below to get in touch with our HR department.</p>
   
 <div class="hero">
@@ -193,13 +209,13 @@
   </form>
 </div>
 </div>
-<h3 class="futter-h3">KWARZ TRADE LIMITED </h3>
+<h3 class="futter-h3">KWARZ TRADE BANK </h3>
 <h5 class="sub">Subsidiary of THEMISA EXCHANGE</h5>
   
 
 </br>
 </br>
-<P class="copy">&copy;2020 KWARZ TRADE LIMITED. All Rights Reserved. Website by Tobez. </P>
+<P class="copy">&copy;2020 KWARZ TRADE BANK. All Rights Reserved. Website designed by Tobez. </P>
 </br>
 
 
