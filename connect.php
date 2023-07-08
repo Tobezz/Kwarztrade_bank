@@ -4,7 +4,7 @@ $servername = "localhost";
 $username = "root";
 // Enter your MySQL password below
 $password = "root";
-$dbname = "net_banking";
+$dbname = "kwarzbanking_db";
 
 // Create connection
 //$mysqli = new \MySQLi($db_server, $db_user, $db_pass, $db_name);

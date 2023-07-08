@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.20, for Linux (x86_64)
 --
--- Host: localhost    Database: net_banking
+-- Host: localhost    Database: kwarzbanking_db
 -- ------------------------------------------------------
 -- Server version	5.7.20-0ubuntu0.17.04.1
 
