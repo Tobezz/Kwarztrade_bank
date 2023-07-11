@@ -59,8 +59,8 @@
 
         <div class="flex-container">
             <div class=container>
-                <label>Aadhar No :</label><br>
-                <input name="aadhar" size="25" type="text" required />
+                <label>NIN No :</label><br>
+                <input name="nin" size="25" type="text" required />
             </div>
         </div>
 
@@ -88,11 +88,13 @@
             </div>
             <div  class=container>
                 <select name="branch">
-                    <option value="delhi">Delhi</option>
-                    <option value="newyork">New York</option>
-                    <option value="paris">Paris</option>
-                    <option value="riyadh">Riyadh</option>
-                    <option value="moscow">Moscow</option>
+                    <option value="lagos">Lagos</option>
+                    <option value="abuja">Abuja</option>
+                    <option value="enugu">Enugu</option>
+                    <option value="benin">Benin</option>
+                    <option value="ghana">Ghana</option>
+                    <option value="europ">Europ</option>
+                    <option value="asia">Asia</option>
                 </select>
             </div>
         </div>

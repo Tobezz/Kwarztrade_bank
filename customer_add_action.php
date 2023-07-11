@@ -19,7 +19,7 @@ $fname = mysqli_real_escape_string($conn, $_POST["fname"]);
 $lname = mysqli_real_escape_string($conn, $_POST["lname"]);
 $gender = mysqli_real_escape_string($conn, $_POST["gender"]);
 $dob = mysqli_real_escape_string($conn, $_POST["dob"]);
-$aadhar = mysqli_real_escape_string($conn, $_POST["aadhar"]);
+$nin = mysqli_real_escape_string($conn, $_POST["nin"]);
 $email = mysqli_real_escape_string($conn, $_POST["email"]);
 $phno = mysqli_real_escape_string($conn, $_POST["phno"]);
 $address = mysqli_real_escape_string($conn, $_POST["address"]);
@@ -67,7 +67,7 @@ $sql3 = "INSERT INTO customer VALUES(
             '$lname',
             '$gender',
             '$dob',
-            '$aadhar',
+            '$nin',
             '$email',
             '$phno',
             '$address',

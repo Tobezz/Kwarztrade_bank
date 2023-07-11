@@ -58,7 +58,7 @@
 
     <p class="welcome-note">
       We work on financial literacy, online banking and money management. We strive to get them the best interest rate.</br>
-Nearly 2.5 billion people - half the world's adult population lack one of the  most </br>basic amenities of modern life: a virtual transactions.
+Nearly 2.5 billion people - half the world's adult population lack one of the  most basic amenities of modern life: </br>a virtual transactions.
     </p>
 
     <a href="#">LEARN MORE</a>
@@ -86,7 +86,7 @@ Nearly 2.5 billion people - half the world's adult population lack one of the  m
     </div>
 </div>
 <div class="about-kwarz">
-    <a href="about.html">LEARN MORE ABOUT KWARZ TRADE</a>
+    <a href="about.php">LEARN MORE ABOUT KWARZ TRADE</a>
 </div>
 </br>
 </br>
@@ -96,7 +96,7 @@ Nearly 2.5 billion people - half the world's adult population lack one of the  m
     <h4>FOR MTOs</h4>
     <h2>We offer competitive </h2>
     <h2> business solutions for Money</h2> <h2>Transfer Operators</h2>
-  </br>
+    
     <ul class="zero-cost">
       <li>Zero Cost Payment Network</li></br>
       <li>No Pre Funding Payout Network</li></br>
@@ -134,7 +134,7 @@ Nearly 2.5 billion people - half the world's adult population lack one of the  m
     <h4>For B2C</h4>
     <h2>Our business solutions for B2C</h2>
     <h2>are superior</h2>
-  </br>
+    
     <ul class="zero-cost">
       <li>Payment Hub with low-cost transactions</li></br>
       <li>Competitive exchange rates</li></br>

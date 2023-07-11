@@ -28,7 +28,7 @@
             $lname = $row["last_name"];
             $gender = $row["gender"];
             $dob = $row["dob"];
-            $aadhar = $row["aadhar_no"];
+            $nin = $row["nin_no"];
             $email = $row["email"];
             $phno = $row["phone_no"];
             $address = $row["address"];
@@ -78,7 +78,7 @@
 
         <div class="flex-container">
             <div class=container>
-                <label>Balance (INR) : <label id="info_label"><?php echo number_format($balance) ?></label></label>
+                <label>Balance (NGN) : <label id="info_label"><?php echo number_format($balance) ?></label></label>
             </div>
         </div>
 
@@ -104,7 +104,7 @@
 
         <div class="flex-container">
             <div class=container>
-                <label>Aadhar No : <label id="info_label"><?php echo $aadhar ?></label></label>
+                <label>BVN No : <label id="info_label"><?php echo $bvn ?></label></label>
             </div>
         </div>
 
