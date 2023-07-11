@@ -100,9 +100,9 @@ nav{
         margin-left: 45%;
         padding: 5px;
         color: aliceblue;
-        border-radius: 50px;
+        border-radius: 0px;
         text-decoration: none;
-        background: linear-gradient(rgba(223, 73, 85, 0.5),rgba(168, 13, 21, 0.5));
+        background: linear-gradient(rgba(49, 12, 234, 0.5),rgba(39, 13, 168, 0.5));
         
 }
 
@@ -113,7 +113,8 @@ nav{
 }
 
 .left-sidebar{
-    background: linear-gradient(rgba(118, 197, 243, 0.5),rgba(125, 37, 133, 0.5));
+    background: linear-gradient(rgba(245, 241, 241, 0.5),rgba(72, 60, 199, 0.5)),url("/images/Worldview7.jpg");
+    /*background: linear-gradient(rgba(118, 197, 243, 0.5),rgba(125, 37, 133, 0.5));*/
     flex-basis: 30%;
     position: sticky;
     top: 70px;

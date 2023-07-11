@@ -61,9 +61,9 @@
 Nearly 2.5 billion people - half the world's adult population lack one of the  most basic amenities of modern life: </br>a virtual transactions.
     </p>
 
-    <a href="#">LEARN MORE</a>
+    <a href="news.php">LEARN MORE</a>
 
-</div>
+</div> 
 
 <div class="container">
       <!-- left sidebar -->
