@@ -476,7 +476,18 @@ iframe{
 @media screen and(max-width: 700rm) {
     
 }
-
+@media screen and (max-width: 540px) {
+    .hero form {   
+        margin-top: 0px;
+        width: 300px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .left-sidebar {
+        margin-top: 0px;
+        width: auto;
+    }
+}
 
 
 
