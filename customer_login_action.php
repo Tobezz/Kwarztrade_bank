@@ -22,6 +22,6 @@
     }
     else {
         session_destroy();
-        die(header("location:home.php?loginFailed=true"));
+        die(header("location:login.php?loginFailed=true"));
     }
 ?>
