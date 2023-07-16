@@ -59,7 +59,7 @@
 
         <div class="flex-container">
             <div class=container>
-                <label>NIN No :</label><br>
+                <label>Nin No :</label><br>
                 <input name="nin" size="25" type="text" required />
             </div>
         </div>

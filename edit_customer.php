@@ -30,7 +30,7 @@
             $lname = $row["last_name"];
             $gender = $row["gender"];
             $dob = $row["dob"];
-            $aadhar = $row["aadhar_no"];
+            $nin = $row["nin_no"];
             $email = $row["email"];
             $phno = $row["phone_no"];
             $address = $row["address"];
@@ -82,7 +82,7 @@
 
         <div class="flex-container">
             <div class=container>
-                <label>Balance (INR) : <label id="info_label"> <?php echo number_format($balance) ?> </label></label>
+                <label>Balance (NGN) : <label id="info_label"> <?php echo number_format($balance) ?> </label></label>
             </div>
         </div>
 
@@ -109,8 +109,8 @@
 
         <div class="flex-container">
             <div class=container>
-                <label>Aadhar No :</label><br>
-                <input name="aadhar" size="25" type="text" value="<?php echo $aadhar ?>" required />
+                <label>Nin No :</label><br>
+                <input name="nin" size="25" type="text" value="<?php echo $nin ?>" required />
             </div>
         </div>
 
@@ -138,11 +138,13 @@
             </div>
             <div  class=container>
                 <select name="branch">
-                    <option value="delhi" <?php if ($branch == 'delhi') {?> selected="selected" <?php }?>>Delhi</option>
-                    <option value="newyork" <?php if ($branch == 'newyork') {?> selected="selected" <?php }?>>New York</option>
-                    <option value="paris" <?php if ($branch == 'paris') {?> selected="selected" <?php }?>>Paris</option>
-                    <option value="riyadh" <?php if ($branch == 'riyadh') {?> selected="selected" <?php }?>>Riyadh</option>
-                    <option value="moscow" <?php if ($branch == 'moscow') {?> selected="selected" <?php }?>>Moscow</option>
+                    <option value="lagos" <?php if ($branch == 'lagos') {?> selected="selected" <?php }?>>Lagos</option>
+                    <option value="abuja" <?php if ($branch == 'abuja') {?> selected="selected" <?php }?>>Abuja</option>
+                    <option value="enugu" <?php if ($branch == 'enugu') {?> selected="selected" <?php }?>>Enugu</option>
+                    <option value="benin" <?php if ($branch == 'benin') {?> selected="selected" <?php }?>>Benin</option>
+                    <option value="ghana" <?php if ($branch == 'ghana') {?> selected="selected" <?php }?>>Ghana</option>
+                    <option value="europ" <?php if ($branch == 'europ') {?> selected="selected" <?php }?>>Europ</option>
+                    <option value="asia" <?php if ($branch == 'asia') {?> selected="selected" <?php }?>>Asia</option>
                 </select>
             </div>
         </div>

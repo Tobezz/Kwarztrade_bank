@@ -50,7 +50,7 @@
             <p id="customer">
                 &#9656 Balance (NGN): <?php echo number_format($row1["balance"]); ?>/-
                 <br>&#9656 You have <?php echo $row2["COUNT(*)"]; ?> beneficiaries.
-                <br>&#9656 Your last transaction (<?php echo $type; ?>) of&nbspRs.&nbsp<?php
+                <br>&#9656 Your last transaction (<?php echo $type; ?>) of&nbspNGN.&nbsp<?php
                 echo number_format($transaction); ?><br>
                 on <?php echo $sanitized_time; ?>, was: "<?php echo $row1["remarks"]; ?>".
             </p>
